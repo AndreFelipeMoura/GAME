@@ -1,0 +1,23 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    background-color: purple;
+    font-size: 25px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.menu {
+    background-color: chartreuse;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu img {
+    width: 200px;
+    height: 200px;
+}
