@@ -1,10 +1,32 @@
-body {
-    background-image: url(../Colecionadora/Imagens2/bruxa1.jpg);
+body  {
+    background-image: url(../Imagens1/livro2.jpg);
     width: 100%;
-    height: 100%;  
+    height: 100%;
 }
 
-.cabeçalhofases p a {
+h1 {
+    
+        font-family: 'Trebuchet MS';
+        font-size: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+.narrativaparabens  {
+    
+        font-family: 'Trebuchet MS';
+        font-size: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+footer {
     font-size: 15px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -14,16 +36,7 @@ body {
     margin-top: 10px;
 }
 
-.gameover p {
-    font-size: 90px;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-footer {
+.cabeçalho p a {
     font-size: 15px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
