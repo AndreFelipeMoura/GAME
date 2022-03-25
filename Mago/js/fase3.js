@@ -1,6 +1,6 @@
 function respostaUm()
 {
-    var respostaCorreta1= "b";
+    var respostaCorreta1= "1";
     
     var maxTentativas = 3;
     var resposta = 1;
@@ -12,7 +12,7 @@ function respostaUm()
 
         if( respostaCorreta1 == SelecioneAlternativa ) {
 
-            alert("Resposta Correta", + SelecioneAlternativa);
+            alert("Parabéns. Você conseguiu!", + SelecioneAlternativa);
             window.location.assign('win.html')
             
             resposta = maxTentativas; 

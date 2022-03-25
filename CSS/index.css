@@ -1,3 +1,75 @@
 body {
-    background-color: bisque;
+    background-image: url(../Imagens1/capa.jpg) ;
+    width: 100%;
+    height: 100%;
 }
+
+.container {
+    padding: 30px;
+}
+
+h1 {
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: initial;
+    font-size: 80px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.narrativa1   {
+    font-style: oblique;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.jogar a{
+    background-color: rgba(39, 39, 128, 0.37);
+    width: 100%;
+    height: 50px;
+    
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(61, 27, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+footer p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media (max-width:700px){
+    header {
+        display: none;
+    }
+
+    main {
+        width:100%;
+        height:100%;
+        padding:20px;
+        
+    }
+}
+

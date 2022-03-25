@@ -75,7 +75,10 @@ h2 {
     text-align: center;
 }
 
-footer {
+footer p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
