@@ -1,15 +1,15 @@
 body {
     background-image: url(../Imagens1/livro2.jpg);    
     width: 100%;
-    height: 100%;    
+    height: 100%;   
+    background-size: 100%;
 }
 
 .container {
     padding: 20px;
     width: 100%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .cabeçalho {
@@ -97,7 +97,7 @@ footer p {
 
 .personagens p a:hover {
     font-size: 50px;
-    background-color: green;
+    background-color: rgba(251, 255, 0, 0.788);
     display: flex;
     justify-content: center;
     border-radius: 20px;
@@ -125,6 +125,7 @@ footer p {
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
+        text-align: center;
          
     }
 

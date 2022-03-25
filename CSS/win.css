@@ -2,10 +2,18 @@ body  {
     background-image: url(../Imagens1/livro2.jpg);
     width: 100%;
     height: 100%;
+    background-size: 100%;
 }
 
-h1 {
-    
+.container {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {    
         font-family: 'Trebuchet MS';
         font-size: 50px;
         color: white;
@@ -44,4 +52,18 @@ footer p {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+}
+
+@media(max-width:700px){
+    
+    .container {
+        width: 100%;
+    }
+
+    .narrativaparabens p {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
